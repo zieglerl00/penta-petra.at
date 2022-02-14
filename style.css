@@ -1,0 +1,94 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #7CD1B8;
+}
+
+h1{
+    font-size: 5em;
+}
+
+.imgBox{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgBox a div:hover{
+    transition: 0.3s;
+    background-color: #ffffff9c;
+}
+
+div{
+    margin: 2em;
+    margin-bottom: 0em;
+}
+
+.teamGenerator{
+    background-color: #bbbbbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 18em;
+    width: 18em;
+    box-shadow: 3px 4px 1px 1px rgba(0, 0, 0, 0.575);
+}
+
+.tictactoe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B1D0E0;
+    height: 18em;
+    width: 18em;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.575);
+}
+
+.scheresteinpapier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C1DBB3;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.575);
+    height: 18em;
+    width: 18em;
+}
+
+.matheQuiz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8dbd74;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.575);
+    height: 18em;
+    width: 18em;
+}
+
+.bumbumbum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #727CB2;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.575);
+    height: 18em;
+    width: 18em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .imgBox{
+        flex-direction: column;
+    }
+
+}

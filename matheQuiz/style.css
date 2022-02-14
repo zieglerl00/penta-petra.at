@@ -1,0 +1,187 @@
+body{
+    background-color: #3E695C;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 4em;
+    color: black;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #5D9D8A;
+    margin-bottom: 3em;
+}
+
+.playground{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 70vh;
+    
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: #5D9D8A;
+    justify-content: space-evenly;
+    box-shadow: 3px 3px 0px 3px;
+}
+
+button{
+    padding: 1em;
+    margin: 2em;
+    width: 10em;
+    font-weight: 700;
+    border-style: solid;
+    border-color: black;
+    background-color:#5D9D8A;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size: 2em;
+    box-shadow: 3px 5px 0px 0px;
+}
+
+button:hover{
+    transition: 0.6s;
+    background-color: #3E695C;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+#one-three{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#one-three div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    padding: 0.5em;
+    font-size: 3em;
+    background-color: #3E695C;
+    color: black;
+}
+
+#four-six{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#four-six div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    padding: 0.5em;
+    font-size: 3em;
+    background-color: #3E695C;
+    color: black;
+}
+
+#seven-nine{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#seven-nine div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    padding: 0.5em;
+    font-size: 3em;
+    background-color: #3E695C;
+    color: black;
+}
+
+
+
+#answerAndQuestion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    color: black;
+}
+
+#answerInput{
+    background-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-color: black;
+    width: 3em;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'VT323', monospace;
+}
+
+#life{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.playgroundAndButtons{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 750px) {
+    button{
+        margin: 1em;
+        font-size: 1em;
+    }
+
+    .playgroundAndButtons{
+        flex-direction: column;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #one-three div{
+        font-size: 1em;
+    }
+    #four-six div{
+        font-size: 1em;
+    }
+    #seven-nine div{
+        font-size: 1em;
+    }
+
+    #answerAndQuestion{
+        font-size: 2em;
+    }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Schere-Stein-Papier</title>
+    <link rel="stylesheet" href="styleSSP.css">
+</head>
+<body>
+    <main>
+        <div class="header-img">
+            <h1>SCHERE - STEIN - PAPIER</h1>
+        </div>
+
+        <div class="howmuchwins">
+            <p id="maxWins-el">Es wird auf 3 gewonnene gespielt</p>
+        </div>
+
+        
+            
+        
+
+        <div class="playarea">
+
+            <div class="user-header">
+                <div>
+                    <p id="userpoints-el">PUNKTE:</p>
+                    <h3><img src="user.png" alt=""></h3>
+                </div>
+                
+                <div class="user-place">
+                    <button id="scissor_btn" onclick="scissorGuess()"></button>
+                    <button id="stone_btn" onclick="stoneGuess()"></button>
+                    <button id="paper_btn" onclick="paperGuess()"></button>
+                </div>
+            </div>
+            
+            <div class="computer-header">
+                <div>
+                    <p id="computerpoints-el">PUNKTE:</p>
+                    <h3><img src="website.png" alt=""></h3>
+                </div>
+                
+                <div class="computer-place">
+                    <p id="pc-guess">THINKING...</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <p id="winner-complete"></p>
+
+        <div class="result">
+            <h3 id="winner"></h3>
+        </div>
+
+        <div class="start-compare-btn">
+
+            <button id="start-btn" onclick="startGame()">START ROUND</button>
+
+            <a href="\TeamGenerator/teamGenerator.html"><button id="back-to-index">TEAM GENERATOR</button></a>
+            <a href="\TicTacToe/TicTacToe.html"><button id="back-to-index">TIC - TAC - TOE</button></a>
+            <a href="\index.html"><button id="back-to-index">Startseite</button></a>
+        </div>
+
+        
+
+        
+    </main>
+
+    <script type="text/javascript" src="scriptSSP.js"></script>
+</body>
+</html>

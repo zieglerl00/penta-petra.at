@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TicTacToe.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=VT323&display=swap" rel="stylesheet">
+    <title>TicTacToe</title>
+</head>
+<body>
+
+    <main>
+        <div>
+            <H1>TIC - TAC - TOE</H1>
+        </div>
+
+        <div>
+            <h2 id="winner">START UM ZU STARTEN</h2>
+        </div>
+
+        <section>
+            <div>
+                <div id="left-top-el" onclick="left_top()">
+                    <div><img id="left-top-el-img" src="X.png" alt=""></div>
+                </div>
+
+                <div class="horizontal-line"></div>
+
+                <div id="left-mid-el" onclick="left_mid()">
+                    <div><img id="left-mid-el-img" src="X.png" alt=""></div>
+                </div>
+
+                <div class="horizontal-line"></div>
+
+                <div id="left-bot-el" onclick="left_bot()">
+                    <div><img id="left-bot-el-img" src="X.png" alt=""></div>
+                </div>
+            </div>
+
+            <div class="vert-line"></div>
+            
+            <div>
+                <div id="mid-top-el" onclick="mid_top()">
+                    <div><img id="mid-top-el-img" src="X.png" alt=""></div>
+                </div>
+
+                <div class="horizontal-line"></div>
+
+                <div id="mid-mid-el" onclick="mid_mid()">
+                    <div><img id="mid-mid-el-img" src="X.png" alt=""></div>
+                </div>
+
+                <div class="horizontal-line"></div>
+
+                <div id="mid-bot-el" onclick="mid_bot()">
+                    <div><img id="mid-bot-el-img" src="X.png" alt=""></div>
+                </div>
+            </div>
+
+            <div class="vert-line"></div>
+
+            <div>
+                <div id="right-top-el" onclick="right_top()">
+                    <div><img id="right-top-el-img" src="X.png" alt=""></div>
+                </div>    
+
+                <div class="horizontal-line"></div>
+
+                <div id="right-mid-el" onclick="right_mid()">
+                    <div><img id="right-mid-el-img" src="X.png" alt=""></div>
+                </div>
+
+                <div class="horizontal-line"></div>
+
+                <div id="right-bot-el" onclick="right_bot()">
+                    <div><img id="right-bot-el-img" src="X.png" alt=""></div>
+                </div>
+            </div>
+            
+        </section>
+
+        <button id="start-btn-el" onclick="startGame()">START GAME</button>
+
+        <a href="\TeamGenerator/teamGenerator.html"><button>Team Generator</button></a>
+        <a href="\SchereSteinPapier/indexSSP.html"><button>Schere - Stein - Papier</button></a>
+        <a href="\index.html"><button>Startseite</button></a>
+
+    </main>
+
+    <script src="TicTacToe.js"></script>
+</body>
+</html>

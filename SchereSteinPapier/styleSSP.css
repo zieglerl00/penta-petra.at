@@ -1,0 +1,205 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    display: flex;
+    justify-content: center;
+    font-size: calc(2.5em - 10px) ;
+    background-color: #C1DBB3;
+    color: #000000;
+}
+
+h1{
+
+    color: #000000;
+    box-shadow: 2px 2px 2px black;
+    padding: 1em;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 95%;
+}
+
+.howmuchwins{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+}
+
+img{
+    max-width: 80%;
+}
+
+.playarea{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90vw;
+    
+}
+
+.user-place{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    
+}
+
+#goto_btn{
+    font-size: 1.5em;
+}
+
+.computer-place{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+}
+
+.user-place button{
+    padding: 4em;
+}
+
+button{
+    padding: 2em;
+    margin: 0.5em;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.575);
+    background-color: #7EBC89;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    
+}
+
+#back-to-index{
+    background-color: rgba(0, 255, 255, 0); 
+}
+
+#scissor_btn{
+    background-image: url(schere.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #7EBC89; 
+}
+#stone_btn{
+    background-image: url(stein.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-color: #7EBC89; 
+}
+#paper_btn{
+    background-image: url(papiere.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #7EBC89;   
+}
+
+.user-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.computer-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.start-compare-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+}
+
+.header-img{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+}
+
+#winner-complete{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+p{
+    font-weight: bold;
+    
+}
+
+#start-btn{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 750px) {
+    h1{
+        font-size: 0.7em;
+    }
+
+    p{
+        font-size: 0.7em;
+    }
+    .howmuchwins{
+        max-width: 30%;
+    }
+
+    img{
+        max-width: 50%;
+    }
+
+    h3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .playarea{
+        flex-direction: column;
+    }
+
+    .result h3{
+        font-size: 0.5em;
+    }
+
+    #winner-complete{
+        font-size: 1em;
+    }
+    .user-place button{
+        padding: 2em    
+    }
+    
+  }
+

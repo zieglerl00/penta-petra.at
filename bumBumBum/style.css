@@ -1,0 +1,62 @@
+body{
+    background-color: #727CB2;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'VT323', monospace;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+#allRows{
+    border-style: solid;
+}
+
+.topRow{
+    display: flex;
+}
+
+.midRow{
+    display: flex;
+}
+
+.botRow{
+    display: flex;
+}
+
+#allRows div{
+    margin: 3em;
+}
+
+#buttonID{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+button{
+    font-size: 2em;
+    background-color: #868fbe;
+    margin-bottom: 3em;
+    padding: 0.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    width: 6em;
+    box-shadow: 5px 3px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
